@@ -98,9 +98,13 @@ console.log("la variabile name3 ha valore:", name3)
 // la comparazione ha dato come risultato: FALSE, i valori di name1 e name2 risultano diversi.
 
 // assegnamo un valore diverso a name1 'da john a John' (cambio della prima lettera da minuscola a maiuscola)
-name1 = "John"
+// name1 = "John"
 
 // mettiamo di nuovo in comparazioni i valori di name1 e name2 (dopo la riassegnazione del valore name1).
-name3 = name1 === name2
-console.log("la variabile name3 ORA ha un valore:", name3)
+// name3 = name1 === name2
+// console.log("la variabile name3 ORA ha un valore:", name3)
 // name3 ha valore TRUE dopo la modifica del valore name1, questo mostra come l'utilizzo di lettere maiuscole o minuscole influenzano i dati di una variabile
+
+name3 = name1 === name2.toLowerCase()
+
+console.log("la variabile name3 ha valore:", name3)
